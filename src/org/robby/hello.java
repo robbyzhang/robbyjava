@@ -12,7 +12,6 @@ public class hello extends ActionSupport {
 		this.str = str;
 	}
 	public String execute() throws Exception {
-
 		str = new String("robby test");
 		return SUCCESS;
 	}

@@ -9,6 +9,10 @@
 	<constant name="struts.action.extension" value="do"/>
 	<package name="basicstruts2" extends="struts-default">
 
+		<action name="init" class="org.robby.Init">
+			<result>/init.jsp</result>
+		</action>
+		
 		<action name="hello" class="org.robby.hello">
 			<result>/hello.jsp</result>
 		</action>
